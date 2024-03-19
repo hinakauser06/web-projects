@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="Survey-Form.css" />
+  </head>
+  <body>
+    <h1 id="title">Form</h1>
+    <p id="description">Survey form for free code camp</p>
+    <form id=survey-form>
+      <fieldset><label id="name-label">
+        Enter your name: <input type="text" id="name" placeholder="Enter your name" name="name" required/>
+      </label>
+<label id="email-label">
+  Enter your email: <input type="email" id="email" placeholder="Enter your email" name="email" required />
+</label>
+<label id="number-label">
+  Enter your number: <input type="number" id="number" min="10" max="1000000000" placeholder="123456789"/>
+</label>
+      </fieldset>
+      <fieldset>
+        <label>Food Option:  
+          <select id="dropdown">
+            <option>Veg</option>
+            <option>Non-Veg</option>
+          </select>
+        </label>
+
+      </fieldset>
+      <fieldset>
+        <label>Gender :    
+      Female    <input type="radio" name="gender" value="Female" checked/>
+     Male     <input type="radio" value="Male" name="gender"/>
+        </label>
+      </fieldset>
+      <fieldset><label> City:
+        <li>Varansi <input type="checkbox" value="vns"/></li>
+        <li>Jaunpur <input type="checkbox" value="jnp"/></li>
+        <li>Bhadohi <input type="checkbox" value="bhadohi"/></li>
+        <li>Allahabad <input type="checkbox" value="allahabad"/></li>
+        <li>Agra <input type="checkbox" value="agra"/></li>
+        </label></fieldset>
+      <fieldset>
+        <lable>Comments: <textarea  rows="3" cols="20"  ></textarea>
+
+        </label>
+      </fieldset>
+      <fieldset><label>
+        <input type="submit" id="submit"</label></fieldset>
+      </form>
+
+  </body>
+
+</html>

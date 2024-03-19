@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+  </head>
+  <body>
+    <style>
+      * {
+        background-color: rgb(144, 202, 202);
+      }
+    </style>
+
+    <h1 style="text-align: center; color: rgb(35, 61, 67)">
+      My Projects (HTML / CSS)
+    </h1>
+    <div style="display: flex">
+      <div
+        style="
+          display: grid;
+          width: 50%;
+          margin: 5px;
+          border: 2px solid rgb(99, 191, 213);
+          border-radius: 10px;
+        "
+      >
+        <span style="text-align: center; font-size: 20px; padding-bottom: 10px"
+          >Cafe Menu</span
+        >
+        <img
+          style="width: 96%; height: 300px; padding: 10px; cursor: pointer"
+          onclick="send('/Cafe Menu.html')"
+          src="/images/cafe.png"
+          alt=""
+        />
+      </div>
+
+      <div
+        style="
+          display: grid;
+          width: 50%;
+          margin: 5px;
+          border: 2px solid rgb(134, 134, 225);
+          border-radius: 10px;
+        "
+      >
+        <span style="text-align: center; font-size: 20px; padding-bottom: 10px"
+          >Quiz</span
+        >
+        <img
+          style="width: 96%; height: 300px; padding: 10px; cursor: pointer"
+          onclick="send('/Quiz.html')"
+          src="/images/quix.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div style="display: flex">
+      <div
+        style="
+          display: grid;
+          width: 50%;
+          margin: 5px;
+          border: 2px solid rgb(134, 134, 225);
+          border-radius: 10px;
+        "
+      >
+        <span style="text-align: center; font-size: 20px; padding-bottom: 10px"
+          >Registration Form</span
+        >
+        <img
+          style="width: 96%; height: 300px; padding: 10px; cursor: pointer"
+          onclick="send('/Registration Form.html')"
+          src="/images/form1.png"
+          alt=""
+        />
+      </div>
+
+      <div
+        style="
+          display: grid;
+          width: 50%;
+          margin: 5px;
+          border: 2px solid rgb(134, 134, 225);
+          border-radius: 10px;
+        "
+      >
+        <span style="text-align: center; font-size: 20px; padding-bottom: 10px"
+          >Survey Form</span
+        >
+        <img
+          style="width: 96%; height: 300px; padding: 10px; cursor: pointer"
+          onclick="send('/Survey-Form.html')"
+          src="/images/form2.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script>
+      function send(url) {
+        window.location.href = url;
+      }
+    </script>
+  </body>
+</html>

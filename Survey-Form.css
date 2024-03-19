@@ -1,0 +1,23 @@
+body{
+  background-color: skyblue;
+  font-family: "Lucida Handwriting", serif;
+  font-size: 15px;
+  border-style: solid;
+
+}
+h1,p{
+  text-align:center;
+}
+input{
+  border-style:black;
+  border:2px solid #00bfff;
+  border-radius:5px;
+  
+}
+fieldset{
+  padding: 5px;
+}
+input[type="submit"]{
+  background-color: #0080ff	;
+  border:solid;
+}
